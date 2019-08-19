@@ -72,6 +72,15 @@ the crab</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JvV-UU-jS2"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="5t6-0z-NX1">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="30Y-Xc-uSs">
+                            <connections>
+                                <segue destination="ajG-hf-EqZ" kind="show" id="IsL-SM-wco"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LH6-zD-E5O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
