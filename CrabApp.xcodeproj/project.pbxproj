@@ -14,10 +14,10 @@
 		E52F9BCC230B376400DDD165 /* Contained-master in Resources */ = {isa = PBXBuildFile; fileRef = E52F9BCB230B376400DDD165 /* Contained-master */; };
 		E52F9BCE230B379600DDD165 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52F9BCD230B379600DDD165 /* Crab.xcassets */; };
 		E52F9BD0230B37CF00DDD165 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BCF230B37CF00DDD165 /* Settings.swift */; };
-		E52F9BD2230B3CBA00DDD165 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E52F9BD1230B3CBA00DDD165 /* settings.png */; };
 		E52F9BD4230B469600DDD165 /* GameViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BD3230B469600DDD165 /* GameViewViewController.swift */; };
 		E52F9BD6230B46B900DDD165 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BD5230B46B900DDD165 /* InfoViewController.swift */; };
 		E52F9BD8230B46D900DDD165 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BD7230B46D900DDD165 /* SettingsViewController.swift */; };
+		E52F9BDA230B598F00DDD165 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BD9230B598F00DDD165 /* CustomScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		E52F9BCB230B376400DDD165 /* Contained-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Contained-master"; path = "../../Downloads/Contained-master"; sourceTree = "<group>"; };
 		E52F9BCD230B379600DDD165 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = "../../../Downloads/Contained-master/Crab.xcassets"; sourceTree = "<group>"; };
 		E52F9BCF230B37CF00DDD165 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		E52F9BD1230B3CBA00DDD165 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = "../../../Downloads/Contained-master/Art/settings.png"; sourceTree = "<group>"; };
 		E52F9BD3230B469600DDD165 /* GameViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewViewController.swift; sourceTree = "<group>"; };
 		E52F9BD5230B46B900DDD165 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		E52F9BD7230B46D900DDD165 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E52F9BD9230B598F00DDD165 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,17 +67,17 @@
 		E52F9BB8230B373300DDD165 /* CrabApp */ = {
 			isa = PBXGroup;
 			children = (
+				E52F9BC5230B373400DDD165 /* Info.plist */,
+				E52F9BC0230B373400DDD165 /* Assets.xcassets */,
+				E52F9BCD230B379600DDD165 /* Crab.xcassets */,
+				E52F9BBD230B373300DDD165 /* Main.storyboard */,
 				E52F9BB9230B373300DDD165 /* AppDelegate.swift */,
 				E52F9BD3230B469600DDD165 /* GameViewViewController.swift */,
 				E52F9BD5230B46B900DDD165 /* InfoViewController.swift */,
-				E52F9BBD230B373300DDD165 /* Main.storyboard */,
-				E52F9BCD230B379600DDD165 /* Crab.xcassets */,
-				E52F9BC0230B373400DDD165 /* Assets.xcassets */,
-				E52F9BC2230B373400DDD165 /* LaunchScreen.storyboard */,
-				E52F9BC5230B373400DDD165 /* Info.plist */,
-				E52F9BD1230B3CBA00DDD165 /* settings.png */,
-				E52F9BCF230B37CF00DDD165 /* Settings.swift */,
 				E52F9BD7230B46D900DDD165 /* SettingsViewController.swift */,
+				E52F9BC2230B373400DDD165 /* LaunchScreen.storyboard */,
+				E52F9BCF230B37CF00DDD165 /* Settings.swift */,
+				E52F9BD9230B598F00DDD165 /* CustomScene.swift */,
 			);
 			path = CrabApp;
 			sourceTree = "<group>";
@@ -140,7 +140,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52F9BD2230B3CBA00DDD165 /* settings.png in Resources */,
 				E52F9BC4230B373400DDD165 /* LaunchScreen.storyboard in Resources */,
 				E52F9BC1230B373400DDD165 /* Assets.xcassets in Resources */,
 				E52F9BCC230B376400DDD165 /* Contained-master in Resources */,
@@ -161,6 +160,7 @@
 				E52F9BD6230B46B900DDD165 /* InfoViewController.swift in Sources */,
 				E52F9BD8230B46D900DDD165 /* SettingsViewController.swift in Sources */,
 				E52F9BD4230B469600DDD165 /* GameViewViewController.swift in Sources */,
+				E52F9BDA230B598F00DDD165 /* CustomScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

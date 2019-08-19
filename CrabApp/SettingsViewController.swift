@@ -10,8 +10,10 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     @IBAction func RollToggle(_ sender: UISwitch) {
+        
     }
     @IBAction func ZoomToggle(_ sender: UISwitch) {
+       
     }
     
     override func viewDidLoad() {
