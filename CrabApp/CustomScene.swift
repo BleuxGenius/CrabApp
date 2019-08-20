@@ -19,6 +19,8 @@ class CustomScene: SKScene {
         addChild(crab)
         crab.loadTextures(named: "HappyCrab", forKey: SKSpriteNode.textureKey)
         crab.position = CGPoint(x: frame.midX, y: frame.midY)
+        
+        
     }
 
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

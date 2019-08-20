@@ -18,6 +18,7 @@
 		E52F9BD6230B46B900DDD165 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BD5230B46B900DDD165 /* InfoViewController.swift */; };
 		E52F9BD8230B46D900DDD165 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BD7230B46D900DDD165 /* SettingsViewController.swift */; };
 		E52F9BDA230B598F00DDD165 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BD9230B598F00DDD165 /* CustomScene.swift */; };
+		E52F9BDC230B8BC800DDD165 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F9BDB230B8BC800DDD165 /* SKSpriteNode+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E52F9BD5230B46B900DDD165 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		E52F9BD7230B46D900DDD165 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E52F9BD9230B598F00DDD165 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
+		E52F9BDB230B8BC800DDD165 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../../Downloads/Contained-master/SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E52F9BC2230B373400DDD165 /* LaunchScreen.storyboard */,
 				E52F9BCF230B37CF00DDD165 /* Settings.swift */,
 				E52F9BD9230B598F00DDD165 /* CustomScene.swift */,
+				E52F9BDB230B8BC800DDD165 /* SKSpriteNode+Utility.swift */,
 			);
 			path = CrabApp;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				E52F9BD0230B37CF00DDD165 /* Settings.swift in Sources */,
 				E52F9BBA230B373300DDD165 /* AppDelegate.swift in Sources */,
+				E52F9BDC230B8BC800DDD165 /* SKSpriteNode+Utility.swift in Sources */,
 				E52F9BD6230B46B900DDD165 /* InfoViewController.swift in Sources */,
 				E52F9BD8230B46D900DDD165 /* SettingsViewController.swift in Sources */,
 				E52F9BD4230B469600DDD165 /* GameViewViewController.swift in Sources */,
