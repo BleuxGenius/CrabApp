@@ -13,7 +13,7 @@
         <!--Play-->
         <scene sceneID="QXa-8A-7od">
             <objects>
-                <viewController title="Play" id="3db-ZZ-xat" customClass="GameViewViewController" customModule="CrabApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Play" id="3db-ZZ-xat" customClass="GameViewController" customModule="CrabApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TTm-Ys-w8X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aFj-gX-MOn"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Play" image="game_controller" id="HZc-2z-OdT"/>
+                    <tabBarItem key="tabBarItem" title="Play" image="game_controller.png" id="HZc-2z-OdT"/>
                     <connections>
                         <outlet property="skView" destination="zg2-5h-6Zl" id="wlg-D9-WuG"/>
                     </connections>
@@ -307,7 +307,7 @@ the crab</string>
         </scene>
     </scenes>
     <resources>
-        <image name="game_controller" width="30" height="30"/>
+        <image name="game_controller.png" width="30" height="30"/>
         <image name="info.png" width="30" height="30"/>
         <image name="settings.png" width="30" height="30"/>
     </resources>
