@@ -17,14 +17,23 @@
                     <view key="view" contentMode="scaleToFill" id="TTm-Ys-w8X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zg2-5h-6Zl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </skView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aFj-gX-MOn"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="game_controller" id="HZc-2z-OdT"/>
+                    <connections>
+                        <outlet property="skView" destination="zg2-5h-6Zl" id="wlg-D9-WuG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="slT-g2-Ody" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="-216"/>
+            <point key="canvasLocation" x="944.92753623188412" y="-216.29464285714286"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="z3u-UW-BLA">
@@ -147,10 +156,10 @@ the crab</string>
             </objects>
             <point key="canvasLocation" x="1802.8985507246377" y="-204.24107142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="Uan-X5-j0G">
             <objects>
-                <viewController id="ajG-hf-EqZ" sceneMemberID="viewController">
+                <viewController id="ajG-hf-EqZ" customClass="InfoViewController" customModule="CrabApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QRE-27-25o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,6 +178,13 @@ the crab</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nbe-kw-03g"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="KHr-v8-dnd">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="qJZ-6i-KK9">
+                            <connections>
+                                <action selector="done:" destination="ajG-hf-EqZ" id="Rbe-bZ-29L"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3F-JU-rvO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -226,6 +242,10 @@ the crab</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FJ4-CD-M3m">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -234,6 +254,7 @@ the crab</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3tN-As-cyV"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="UEz-42-vNM">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="H94-ck-BUL">
                             <connections>
@@ -241,15 +262,16 @@ the crab</string>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZh-Ii-3WS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2286.9565217391305" y="464.73214285714283"/>
         </scene>
-        <!--View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="aup-44-6U1">
             <objects>
-                <viewController id="XTn-Vi-NZJ" sceneMemberID="viewController">
+                <viewController id="XTn-Vi-NZJ" customClass="InfoViewController" customModule="CrabApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kfi-Qi-0QW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

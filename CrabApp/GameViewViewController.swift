@@ -17,10 +17,10 @@ class GameViewViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         skscene = CustomScene(size: view.bounds.size)
-        skview.presentScene(skscene)
+        skView.presentScene(skscene)
     }
     
-}
+
     
     
     override func viewDidLoad() {
@@ -29,7 +29,7 @@ class GameViewViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+}
     /*
     // MARK: - Navigation
 
@@ -40,4 +40,5 @@ class GameViewViewController: UIViewController {
     }
     */
 
-}
+
+

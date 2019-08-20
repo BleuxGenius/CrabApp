@@ -27,7 +27,7 @@ class CustomScene: SKScene {
         guard !touches.isEmpty, let touch = touches.first else { return }
         
 //        retrieve position
-        let positon = touch.location(in: self)
+        let position = touch.location(in: self)
         
 //        create move action
         let actionDuration = 1.0
